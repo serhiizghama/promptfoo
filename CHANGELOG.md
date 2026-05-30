@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.121.14](https://github.com/promptfoo/promptfoo/compare/0.121.13...0.121.14) (2026-05-30)
+
+
+### Features
+
+* **eval:** extract eval-creator readiness and validation modules ([#9397](https://github.com/promptfoo/promptfoo/issues/9397)) ([d3af118](https://github.com/promptfoo/promptfoo/commit/d3af1180405e82786461eae5bf85e50ce6b73f3a))
+* **providers:** expose traceable agent turn markers ([#9475](https://github.com/promptfoo/promptfoo/issues/9475)) ([4018837](https://github.com/promptfoo/promptfoo/commit/4018837455faf334ce2e07fd39a1fbc33c2960d2))
+* **providers:** promote Fireworks AI from registry stub to dedicated provider ([#9542](https://github.com/promptfoo/promptfoo/issues/9542)) ([2bae148](https://github.com/promptfoo/promptfoo/commit/2bae148be51975dbacaec2a4a5d36c839e897034))
+
+
+### Bug Fixes
+
+* **assertions:** don't classify gen_ai.tool.definitions chat spans as tool calls ([#9524](https://github.com/promptfoo/promptfoo/issues/9524)) ([b59f397](https://github.com/promptfoo/promptfoo/commit/b59f3974851657a8a97c05db09cc87064ba0528d))
+* **db:** serialize libsql test database cleanup ([#9540](https://github.com/promptfoo/promptfoo/issues/9540)) ([f4380c2](https://github.com/promptfoo/promptfoo/commit/f4380c23f1e62eb1a2e171155d1437a1645d01dd))
+* **eval:** redact credentials from the persisted browser store ([#9396](https://github.com/promptfoo/promptfoo/issues/9396)) ([4d5bed5](https://github.com/promptfoo/promptfoo/commit/4d5bed56b94de0351d8348f7a6b8b25a1bbc14e1))
+* **providers:** inject n8n sessions into custom bodies ([#9527](https://github.com/promptfoo/promptfoo/issues/9527)) ([9cc0542](https://github.com/promptfoo/promptfoo/commit/9cc05429af81ff6493bc8f4f448be3ce3e1c55c7))
+* **util:** restore nested SAS tokens after array reorder ([#9528](https://github.com/promptfoo/promptfoo/issues/9528)) ([9759e5a](https://github.com/promptfoo/promptfoo/commit/9759e5a58099a702e313013daa04149530473e33))
+* **webui:** render negative-only metric charts ([#9526](https://github.com/promptfoo/promptfoo/issues/9526)) ([7ccafa4](https://github.com/promptfoo/promptfoo/commit/7ccafa4c74c391516a5e371c9db2918e415f078f))
+
 ## [0.121.13](https://github.com/promptfoo/promptfoo/compare/0.121.12...0.121.13) (2026-05-28)
 
 ### Features
